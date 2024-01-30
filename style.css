@@ -1,0 +1,24 @@
+@keyframes shiftBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-background {
+  background-size: 200% 200%;
+}
+
+/* Ajout de styles personnalisés pour les ombres et l'interactivité */
+.countdown-number {
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.countdown-number:hover {
+  transform: scale(1.1);
+  color: #EF4444; /* Une couleur rouge pour l'interaction */
+}
+
+/* Ajustement de l'espacement et de la typographie pour le titre */
+.title-text {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
